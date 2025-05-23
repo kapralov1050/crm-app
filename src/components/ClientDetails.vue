@@ -53,7 +53,7 @@ export default defineComponent({
     }
   },
   computed: {
-    clientDeals() {
+    clientDeals(): Deal[] {
       return this.$store.state.deals.filter((deal: Deal) => deal.client === this.$props.clientDetails.name)
     }
   }
