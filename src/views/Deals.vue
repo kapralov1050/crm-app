@@ -11,9 +11,8 @@
         Создать сделку 
       </el-button>
       <el-dialog
-        title="Новая сделка"
         label-position="left"
-        width="50%"
+        width="60%"
         :visible.sync="isOpen"
         :append-to-body="true"
       >

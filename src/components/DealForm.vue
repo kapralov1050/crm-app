@@ -69,15 +69,16 @@
     <el-button 
       type="primary" 
       @click="handleCreate"
-    >
-      Добавить
-    </el-button>
+      plain
+      circle
+      icon="el-icon-check"
+    />
     <el-button 
       plain 
+      circle
       @click="resetForm"
-    >
-      Очистить
-    </el-button>
+      icon="el-icon-refresh-left"
+    />
   </el-form>
 </template>
 
@@ -144,6 +145,6 @@ export default defineComponent ({
 ::v-deep .el-form-item {
   justify-content: flex-start;
   text-align: left;
-  width: 80%;
+  width:100%;
 }
 </style>

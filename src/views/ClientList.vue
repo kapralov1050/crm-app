@@ -11,7 +11,6 @@
           Добавить пользователя 
         </el-button>
         <el-dialog
-          title="Добавить нового пользователя"
           :visible.sync="isOpen"
           width="50%"
           :append-to-body="true"
