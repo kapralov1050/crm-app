@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/store/index.ts", "src/main.ts", "src/store/persistLocalStorage.ts"  ],
   "exclude": [
     "node_modules"
   ]

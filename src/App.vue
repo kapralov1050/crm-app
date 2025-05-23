@@ -1,32 +1,51 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
 <style>
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --card-bg: #ffffff;
+  --border-color: #b6b6b6;
+}
+
+.dark {
+  --bg-color: #08293f;
+  --text-color: #eeeeee;
+  --card-bg: #c1d0e2; 
+  --border-color: #f3f3f3;
+}
+
+.el-button,
+.el-input,
+.el-card,
+.el-form-item,
+.el-select-dropdown-item,
+.el-dropdown,
+.el-menu,
+.el-date-picker,
+.el-popover,
+.el-collapse {
+  background-color: transparent !important;
+  color: var(--text-color);
+}
+
+.el-dialog {
+  background-color: var(--card-bg) !important;
+}
+
 #app {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+html {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
