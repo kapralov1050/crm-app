@@ -112,7 +112,7 @@ export default defineComponent({
   padding: 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .header {
     height: auto;
     display: flex;
@@ -136,7 +136,7 @@ export default defineComponent({
 
   .client-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto);
     gap: 1rem;
     padding: 1rem;
 

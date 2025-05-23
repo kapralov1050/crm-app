@@ -185,7 +185,7 @@ export default defineComponent ({
   padding: 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .header {
     height: auto;
     display: flex;
