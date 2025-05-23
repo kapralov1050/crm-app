@@ -1,7 +1,7 @@
 <template>
   <header>
     <h1>
-      CRM сделки
+      Трекер 
     </h1>
     <el-button plain circle :icon="isDark ? 'el-icon-moon' : 'el-icon-sunny'" @click="toggleTheme"/>
   </header>
@@ -29,6 +29,12 @@ export default defineComponent({
 
 <style scoped lang='scss'>
 header {
-  min-height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+  gap: 2rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid var(--border-color);
 }
 </style>

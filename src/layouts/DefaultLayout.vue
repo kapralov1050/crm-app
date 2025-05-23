@@ -42,6 +42,7 @@ export default {
 .el-button {
   color: var(--text-color) !important;
 }
+
 .container {
   display: flex;
   box-sizing: border-box;
