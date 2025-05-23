@@ -2,7 +2,12 @@
   <el-card class="card">
     <div class="card__header" slot="header">
       <h1> {{ $props.deal.title }} </h1>
-      <el-button @click="handleDelete"> Удалить </el-button>
+      <el-button 
+        @click="handleDelete"
+        plain
+        circle
+        icon="el-icon-delete"
+      />
     </div>
     <div class="card__main">
       <p v-if="$props.deal.client" > Клиент: {{ $props.deal.client }} </p>
@@ -112,7 +117,7 @@ export default defineComponent({
 
 @media (max-width: 1000px) {
   .card {
-    width: 300px;
+    width: 100%;
     min-height: 250px;
     background-color: var(--card-bg);
 
@@ -135,10 +140,6 @@ export default defineComponent({
     &__main:last-child {
       padding-top: 1rem;
     }
-  }
-
-  .details-button {
-    visibility: hidden;
   }
 }
 </style>

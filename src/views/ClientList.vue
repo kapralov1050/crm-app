@@ -25,7 +25,7 @@
         />
       </section>
       <section class="client-list">
-        <div v-for="client in displayedClients" class="deal-list__item">
+        <div v-for="client in displayedClients" class="client-list__item">
           <ClientCard :client="client" type="info" @delete-client="handleDelete"/>
         </div>
       </section>

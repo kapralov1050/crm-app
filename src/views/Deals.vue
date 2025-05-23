@@ -68,8 +68,8 @@
         </el-dropdown>
       </section>
     </section>
-    <section class="deals-list">
-      <div v-for="deal in displayedDeals" :key="deal.id">
+    <section class="deal-list">
+      <div v-for="deal in displayedDeals" :key="deal.id" class="deal-list__item">
         <DealCard :deal="deal" type="info" @delete-deal="handleDelete"/>
       </div>
     </section>

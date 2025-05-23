@@ -26,7 +26,6 @@
 .el-select-dropdown-item,
 .el-dropdown,
 .el-menu,
-.el-date-picker,
 .el-popover,
 .el-collapse {
   background-color: transparent !important;
