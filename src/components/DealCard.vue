@@ -109,4 +109,36 @@ export default defineComponent({
 .overdue-deal {
   color: red;
 }
+
+@media (max-width: 1000px) {
+  .card {
+    width: 500px;
+    min-height: 250px;
+    background-color: var(--card-bg);
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 1.5rem;
+    }
+
+    &__main {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+
+    &__main:last-child {
+      padding-top: 1rem;
+    }
+  }
+
+  .details-button {
+    visibility: hidden;
+  }
+}
 </style>

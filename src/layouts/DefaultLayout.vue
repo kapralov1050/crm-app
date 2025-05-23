@@ -58,6 +58,6 @@ export default {
 }
 
 .main {
-  width: 90vw;
+  width: 100%;
 }
 </style>

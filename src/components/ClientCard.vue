@@ -100,15 +100,17 @@ summary::marker {
   color: rgb(221, 58, 17);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .card {
-    width: 100%;
+    width: 500px;
     min-height: 250px;
     background-color: var(--card-bg);
 
     &__header {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       font-size: 1.5rem;
     }
