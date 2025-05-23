@@ -102,7 +102,7 @@ summary::marker {
 
 @media (max-width: 1000px) {
   .card {
-    width: 500px;
+    width: 300px;
     min-height: 250px;
     background-color: var(--card-bg);
 

@@ -15,12 +15,19 @@
     <el-form-item label="Заметка">
       <el-input type="textarea" v-model="clientForm.note" placeholder="Заметка"/>
     </el-form-item>
-    <el-button type="primary" @click="handleCreate">
-      Добавить 
-    </el-button>
-    <el-button plain @click="resetForm">
-      Очистить
-    </el-button>
+    <el-button 
+      type="primary" 
+      @click="handleCreate"
+      plain
+      circle
+      icon="el-icon-check"
+    />
+    <el-button 
+      plain 
+      circle
+      @click="resetForm"
+      icon="el-icon-refresh-left"
+    />
   </el-form>
 </template>
 
