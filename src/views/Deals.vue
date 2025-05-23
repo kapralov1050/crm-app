@@ -12,7 +12,7 @@
       </el-button>
       <el-dialog
         label-position="left"
-        width="60%"
+        width="70%"
         :visible.sync="isOpen"
         :append-to-body="true"
       >

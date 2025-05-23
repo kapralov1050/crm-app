@@ -48,6 +48,7 @@ export default {
 }
 
 .sidebar{
+  min-height: 100vh;
   border-right: 1px solid var(--border-color);
   background-color: var(--bg-color);
 }
